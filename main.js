@@ -35,7 +35,7 @@ function calculateAge(){
         m3 = 11;
         y3--;
     }
-    result.innerHTML = `You are ${y3} years, ${m3} months, and ${d3} days old.`;
+    result.innerHTML = `You are age is ${y3} years, ${m3} months, and ${d3} days old.`;
 }
 
 function getDaysInMonth(year, month){
